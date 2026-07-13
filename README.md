@@ -4,7 +4,7 @@ A robust, production-grade Python web scraper built to perform automated batch e
 
 ## 📋 Project Overview
 
-The core objective of this project is to sequentially parse sequentially indexed XML nodes (ranging from index 10 to 55,000), extract key nested datasets (`Exercise Name` and compiled `Instructions/Purposes`), filter out bad/redirected endpoints, and compile the final sanitized data into a structured CSV file.
+The primary objective of this project is to extract dynamic data from thousands of XML nodes on a specific website. As proof of functionality and a demonstration (Sample Dataset), this scraper was used to successfully scrape 300 pages, and the retrieved data has been precisely stored in the sample_data.csv file.
 
 ## 🚀 Key Features
 
@@ -24,9 +24,3 @@ The core objective of this project is to sequentially parse sequentially indexed
   - `csv` & `os` (File I/O & Data Structuring)
   - `sys` (Process Controls)
 
-## 📦 Installation & Setup
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/tuhin-cybersec/python-xml-scraper.git
-   cd python-xml-scraper
